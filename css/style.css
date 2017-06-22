@@ -1,0 +1,147 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Crushed', cursive;
+}
+body
+{
+  margin: auto;
+}
+.header
+{
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: transparent !important;
+  box-shadow: none;
+  color: rgb(206, 208, 208);
+  padding-top: 20px;
+}
+.header a
+{
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  text-decoration-line: none;
+}
+.header a:hover
+{
+  color: rgba(68, 131, 116, 0.85);
+  text-shadow: 2px 2px 2px #fff;
+
+}
+.fixedNav
+{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.header .qui
+{
+  float: left;
+}
+.header .menu
+{
+  float: right;
+}
+.header .menu a
+{
+  margin-left: 20px;
+}
+.imgYoga
+{
+  background: url(../images/1.jpg); no-repeat center;
+  background-size: cover;
+  height: 800px;
+}
+.textImg
+{
+  position: absolute;
+  top: 50%;
+  left: 47%;
+}
+.textImg h1
+{
+  font-size: 3.3em;
+}
+.textImg p
+{
+  font-size: 1.5em;
+}
+.main
+{
+  margin: auto;
+  padding-bottom: 90px;
+  text-align: center;
+}
+.title
+{
+  text-align: center;
+  padding: 50px;
+}
+.title h2
+{
+  margin: 40px;
+}
+hr
+{
+  margin: auto;
+  border: none;
+  width: 90px;
+  height: 2px;
+  background-color: #000;
+}
+.articles
+{
+  width: 100%;
+  height: 1000px;
+  background-color: rgba(224, 227, 224, 0.33);
+}
+.box
+{
+  display: flex;
+}
+.textBox
+{
+  box-shadow: 0px 5px 25px 0px rgba(134, 134, 134, 0.43);
+  border: 1px solid rgba(135, 140, 153, 0.28);
+  border-radius: 10px;
+  background-color: #fff;
+
+  padding: 20px;
+  margin: 45px;
+  width: 500px;
+  height: 250px;
+}
+
+.end
+{
+  position: absolute;
+  top: 500%;
+  left: 30%;
+}
+/*.footerImg
+{
+  background: url(../images/4.jpg); no-repeat center;
+  background-size: cover;
+  height: 800px;
+}*/
+/*.slide img
+{
+  width: 350px;
+}*/
+.w3-section
+{
+  margin: auto;
+}
+.mySlides
+{
+  display:none;
+}
+.endsite
+{
+  background-color: rgba(233, 233, 233, 0.71);
+
+}
